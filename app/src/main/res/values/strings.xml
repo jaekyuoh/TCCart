@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TCCart</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_adding_customer">AddingCustomerActivity</string>
+    <string name="title_activity_purchase">ProcessPurchaseActivity</string>
+    <string name="title_activity_edit_customer">EditCustomerActivity</string>
+    <string name="title_activity_print_customer_card">PrintCustomerCardActivity</string>
+    <string name="title_activity_customer_history">CustomerHistoryActivity</string>
+</resources>

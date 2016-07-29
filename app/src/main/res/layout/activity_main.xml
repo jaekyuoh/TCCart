@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- Header -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#fd7676"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome to Tea &amp; Coffee Cart !"
+            android:id="@+id/textView"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Process Purchase"
+            android:id="@+id/buttonPurchase"
+            android:onClick="onClick_toProcessPurchase" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD CUSTOMER"
+            android:id="@+id/buttonAddCustomer"
+            android:onClick="onClick_toAddCustomer" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT CUSTOMER"
+            android:id="@+id/buttonEditCustomer"
+            android:onClick="onClick_toEditCustomer" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRINT CUSTOMER CARD"
+            android:id="@+id/buttonPrintCard"
+            android:onClick="onClick_toPrintCustomerCard" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUSTOMER HISTORY"
+            android:id="@+id/buttonHistory"
+            android:onClick="onClick_toCustomerHistory" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show User DB"
+            android:id="@+id/button"
+            android:onClick="onClick_showUserDB" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Purchase DB"
+            android:id="@+id/buttonShowPurchaseDB"
+            android:onClick="onClick_showPurchaseDB" />
+    </LinearLayout>
+
+</LinearLayout>
